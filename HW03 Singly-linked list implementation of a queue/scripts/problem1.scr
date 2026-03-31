@@ -1,0 +1,475 @@
+Script started on 2025-10-14 21:34:08+00:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="141" LINES="12"]
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin/scripts[?2004hbvthai1@ics45c-bvthai1 21:34:08 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin/scripts 
+$ s[K./problem1
+[?2004lbash: ./problem1: No such file or directory
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin/scripts[?2004hbvthai1@ics45c-bvthai1 21:34:14 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin/scripts 
+$ -[Kcd -
+[?2004l/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:34:18 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ f[K./problem1
+[?2004lThe number is: 43
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+34 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+^[[A
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:34:52 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ ./problem1[C[C[6Pcd -[C[C./problem1[C[C[6Pcd -[C[C./problem1
+[?2004lThe number is: 99
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+^[[A  9   9
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:35:01 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ ./problem1 456789
+[?2004lThe number is: 456789
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+45768 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+9
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:35:30 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ [7mg++ -c src/gen_number.cpp -o lib/gen_number.o[27m
+[7mg++ -c src/post_process.cpp -o lib/post_process.o[27m
+[7mg++ -c src/print_menu.cpp -o lib/print_menu.o[27m[A[A[C[Cg++ -c src/gen_number.cpp -o lib/gen_number.o
+g++ -c src/post_process.cpp -o lib/post_process.o
+g++ -c src/print_menu.cpp -o lib/print_menu.o
+[?2004l]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:35:44 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ g++ -c src/print_menu.cpp -o lib/print_menu.o[C[C[C[C[C[C[C[C[C[C[C[C[C[Cost_process.cpp -o lib/post_process.o[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgen_number.cpp -o lib/gen_number.o[C[C[28P./problem1 456789[K[C[C[6Pcd -[C[C./problem1[C[C[6Pcd -[K[K[K[K[7mg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o[27m[C[Cg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:36:07 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ ./problem1
+[?2004lThe number is: 85
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+58 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+^[[A    2
+85 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+58 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+85 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+58 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+85 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+58 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+22
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:36:19 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ 2
+[?2004lbash: fg: %2: no such job
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:36:19 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ 2
+[?2004lbash: fg: %2: no such job
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:36:19 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ 2
+[?2004lbash: fg: %2: no such job
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:36:19 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ 2[Kcd [K[K[K2[K./prlb[K[Koblem1
+[?2004lThe number is: 91
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+19 is prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+^[[A^[[B        0 9
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:38:23 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ ./rp[K[Kproblem [K1 140583
+[?2004lThe number is: 140583
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+385041 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+9
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:39:29 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ [7mg++ -c src/gen_number.cpp -o lib/gen_number.o[27m
+[7mg++ -c src/post_process.cpp -o lib/post_process.o[27m
+[7mg++ -c src/print_menu.cpp -o lib/print_menu.o[27m[A[A[C[Cg++ -c src/gen_number.cpp -o lib/gen_number.o
+g++ -c src/post_process.cpp -o lib/post_process.o
+g++ -c src/print_menu.cpp -o lib/print_menu.o
+[?2004l]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:39:31 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ [7mg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o[27m[C[Cg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:39:40 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ ./problem1 36
+[?2004lThe number is: 36
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+1
+72 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+9
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:41:41 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ ./prl[Koblem1
+[?2004lThe number is: 95
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2 1
+190 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+9
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:43:00 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ ./problem1 36[K[K[K[K[K[K[K[K[K[K[K.[K./[K[K./problem1 36[C[C[K./problem1 36[K[K[K[K[K[K[K[K[K[K[K[K[K[7mg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o[27m[C[Cg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l[01m[Kproblem1_main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[Kproblem1_main.cpp:38:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+   38 |         [01;31m[Kelse[m[K if(choice == 3){
+      |         [01;31m[K^~~~[m[K
+[01m[Kproblem1_main.cpp:35:29:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   35 |         else if(choice == 2)[01;36m[K{[m[K
+      |                             [01;36m[K^[m[K
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:43:38 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ g++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:44:01 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ ./problem1
+[?2004lThe number is: 84
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+9
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:44:11 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ ./problem1 36
+[?2004lThe number is: 36
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+1
+
+72 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+
+27 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+3
+Enter power (2, 3, or 4): 4
+
+531441 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+4
+
+18 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+3
+Enter power (2, 3, or 4): 4
+
+104976 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+5
+The number must be two digits in length
+
+104976 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+6
+The number must be three digits in length
+
+104976 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+0
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:45:37 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ ./problem1 36[K[C[Cg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l[01m[Kproblem1_main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[Kproblem1_main.cpp:86:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   86 |             std::cout <<"Invalid choice."
+      |                                          [01;31m[K^[m[K
+      |                                          [32m[K;[m[K
+   87 |         [32m[K}[m[K
+      |         [32m[K~[m[K                                 
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:46:46 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ g++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:46:51 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ ./problem1 
+[?2004lThe number is: 44
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+^[[A^[[B        9
+]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 21:49:14 ~/ics45c/hw/hw02-prime-numbers-and-matrix-operations-ThaiBenjamin 
+$ ./problem1 36
+[?2004lThe number is: 36
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+1
+
+72 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+
+27 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+3
+Enter power (2, 3, or 4): 4
+
+531441 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+4
+
+18 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+3
+Enter power (2, 3, or 4): 4
+
+104976 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+5
+The number must be two digits in length
+104976 is not prime.
+
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of 2, 3, or 4.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to rai

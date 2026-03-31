@@ -1,0 +1,12 @@
+---
+:id: 359122892
+:submitters:
+- :name: Benjamin Vinh Thai
+  :email: bvthai1@uci.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2025-10-17 04:01:26.356631000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2025-10-16 21:01:26.356631000 Z
+:status: processed
+:score: 99.5
