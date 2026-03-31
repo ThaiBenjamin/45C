@@ -1,74 +1,0 @@
-Script started on 2025-10-04 18:00:56+00:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="219" LINES="13"]
-]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 18:00:56 ~/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin 
-$ [7mscript hw01_circle.scr[27m
-[7mdate[27m
-[7mpwd[27m
-[7mls -l[27m
-[7mg++ -c src/circle.cpp -o src/circle.o[27m
-[7mg++ src/circle_main.cpp -o hw01_circle src/circle.o[27m
-[7m./hw01_circle[27m
-[7mls -l[27m
-[7mexit[27m
-[7mmkdir scripts[27m
-[7mmv hw01_circle.scr scripts[27m[A[A[A[A[A[A[A[A[A[A[C[Cscript hw01_circle.scr
-date
-pwd
-ls -l
-g++ -c src/circle.cpp -o src/circle.o
-g++ src/circle_main.cpp -o hw01_circle src/circle.o
-./hw01_circle
-ls -l
-exit
-mkdir scripts
-[1Pmv hw01_circle.scr script[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[K[K[K[K[K[A[C[C[C[C[C[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[K[K[K[K[K[K[A[C[C[C[K[K[K[K[A[C[C[C[C[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdate
-[?2004lSat Oct  4 18:01:18 UTC 2025
-]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 18:01:18 ~/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin 
-$ pwd
-[?2004l/home/bvthai1/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin
-]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 18:01:26 ~/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin 
-$ ls-l
-[?2004lls-l: command not found
-]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 18:01:28 ~/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin 
-$ ls -l
-[?2004ltotal 32K
-drwx------ 8 bvthai1 bvthai1    0 Oct  4 17:57 [0m[01;34m.git[0m/
--rw-rw-r-- 1 bvthai1 bvthai1  278 Oct  4 17:43 .gitignore
--rw-rw-r-- 1 bvthai1 bvthai1 2.4K Oct  4 17:43 CMakeLists.txt
--rw-rw-r-- 1 bvthai1 bvthai1 1.1K Oct  4 17:43 LICENSE
--rw------- 1 bvthai1 bvthai1 9.5K Oct  4 06:23 README.md
--rwx------ 1 bvthai1 bvthai1  17K Oct  4 17:59 [01;32mhw01_circle[0m*
--rw------- 1 bvthai1 bvthai1    0 Oct  4 18:00 hw01_circle.scr
-drwxrwxr-x 2 bvthai1 bvthai1    0 Oct  4 17:43 [01;34minclude[0m/
--rw-rw-r-- 1 bvthai1 bvthai1  225 Oct  4 17:43 mock.csv
--rw-rw-r-- 1 bvthai1 bvthai1  201 Oct  4 17:43 sept_expenses.csv
-drwx------ 2 bvthai1 bvthai1    0 Oct  4 17:59 [01;34msrc[0m/
-drwxrwxr-x 5 bvthai1 bvthai1    0 Oct  4 17:43 [01;34mtests[0m/
-]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 18:01:32 ~/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin 
-$ [7mg++ -c src/circle.cpp -o src/circle.o[27m
-[7mg++ src/circle_main.cpp -o hw01_circle src/circle.o[27m
-[7m./hw01_circle[27m[A[A[C[Cg++ -c src/circle.cpp -o src/circle.o
-g++ src/circle_main.cpp -o hw01_circle src/circle.o
-./hw01_circle
-[?2004l the radius between (4,1) and (-2,8) is equal to: 9.21954
- the circumference of the circle defined by (4,1) and (-2,8) is equal to: 57.9281
- the area of the circle defined by (4,1) and (-2,8) is equal to: 267.035 = 13
-]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 18:01:40 ~/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin 
-$ [7mls -l[27m[C[Cls -l
-[?2004ltotal 32K
-drwx------ 8 bvthai1 bvthai1    0 Oct  4 17:57 [0m[01;34m.git[0m/
--rw-rw-r-- 1 bvthai1 bvthai1  278 Oct  4 17:43 .gitignore
--rw-rw-r-- 1 bvthai1 bvthai1 2.4K Oct  4 17:43 CMakeLists.txt
--rw-rw-r-- 1 bvthai1 bvthai1 1.1K Oct  4 17:43 LICENSE
--rw------- 1 bvthai1 bvthai1 9.5K Oct  4 06:23 README.md
--rwx------ 1 bvthai1 bvthai1  17K Oct  4 18:01 [01;32mhw01_circle[0m*
--rw------- 1 bvthai1 bvthai1    0 Oct  4 18:00 hw01_circle.scr
-drwxrwxr-x 2 bvthai1 bvthai1    0 Oct  4 17:43 [01;34minclude[0m/
--rw-rw-r-- 1 bvthai1 bvthai1  225 Oct  4 17:43 mock.csv
--rw-rw-r-- 1 bvthai1 bvthai1  201 Oct  4 17:43 sept_expenses.csv
-drwx------ 2 bvthai1 bvthai1    0 Oct  4 18:01 [01;34msrc[0m/
-drwxrwxr-x 5 bvthai1 bvthai1    0 Oct  4 17:43 [01;34mtests[0m/
-]0;bvthai1@ics45c-bvthai1:/home/bvthai1/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin[?2004hbvthai1@ics45c-bvthai1 18:01:47 ~/ics45c/hw/hw01-file-io-and-simple-functions-in-cpp-ThaiBenjamin 
-$ [7mexit[27m[C[Cexit
-[?2004lexit
-
-Script done on 2025-10-04 18:01:54+00:00 [COMMAND_EXIT_CODE="0"]
